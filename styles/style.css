@@ -1,2 +1,21 @@
 @import "reset.css";
 
+#navbar{
+    position: absolute;
+    width: 675px;
+    height: 57px;  
+    background-color: blue;
+}
+#login-icon{
+    position: absolute;
+width: 22px;
+height: 29px;
+
+font-family: Font Awesome 5 Free;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFF7F7;
+}
