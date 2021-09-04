@@ -5,6 +5,7 @@
     width: 675px;
     height: 57px;  
     background-color: blue;
+    z-index: 2;
 }
 #login-icon{
     position: absolute;
@@ -18,4 +19,42 @@ font-size: 24px;
 line-height: 28px;
 
 color: #FFF7F7;
+}
+
+/* join us */
+#slider-btn{
+
+position: absolute;
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+
+
+/* identical to box height */
+
+
+color: #000000;
+}
+/* SLIDER ATTRIBUTE */
+.slider {
+
+    text-align: center;
+    display: block;
+    max-width: 100%;
+    position: relative;
+     margin: auto;
+      
+}
+
+
+.slider-obj{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-30%, -900%);
+    cursor: pointer;
+
+
 }
