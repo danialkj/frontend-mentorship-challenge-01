@@ -114,6 +114,11 @@ filter: drop-shadow(0 0 0.75rem crimson);
 
 /* section 3 */
 
+
 #section-3 {
-    
+background-color: #01a3a4;
+}
+
+figcaption{
+    text-align: center;
 }
