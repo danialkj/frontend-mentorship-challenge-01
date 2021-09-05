@@ -148,14 +148,30 @@ footer{
    
    color: var(--darkColor);
 }
-
-.footer-menu{
-    
-    display: flex;
-  justify-content:space-around;
+   
+li{
+    margin-left: .5rem;
+    font-size: 12px;
 }
 
-.footer-links{
+.footer-column {
+    float: left;
+   display: flex;
+  
+  }
+  
+  /* Clear floats after the columns */
+  .footer-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ul{
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+}
+
+#footer-icones{
+    align-content: flex-end;
 }
