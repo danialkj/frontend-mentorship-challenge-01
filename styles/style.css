@@ -10,7 +10,7 @@
     box-sizing: border-box;
   }
 
-/* Navbar setting  setting */
+/************************************** Navbar   setting */
 
 #navbar{
     background-color: var(--midnightbBlueColor);  
@@ -26,7 +26,7 @@ color: cornsilk;
 }
 
 
-/* slider setting */
+/***************************************** slider setting */
 
 .slider{
     width: 100%; 
@@ -38,7 +38,7 @@ color: cornsilk;
     background-size: cover;
 }
   
-/* slider object */
+/**************************************** slider object */
 
 .slider-obj  {
     position:absolute;
@@ -64,7 +64,7 @@ text-shadow:2px 2px var(--darkColor);
     padding-top: .1rem;
 }
 
-/* section 2 */
+/************************************* section 2 */
 
 #section-2{
     padding: 1rem 2rem 2rem 2rem  ;
@@ -83,8 +83,7 @@ text-align: center;
     float: left;
     width: 33.33%;
     padding: 6px;
-
-   
+ 
 }
 
 .image-resize {
@@ -112,13 +111,51 @@ filter: drop-shadow(0 0 0.75rem crimson);
     cursor: pointer;
 }
 
-/* section 3 */
+/****************************** section 3 */
 
 
 #section-3 {
-background-color: #01a3a4;
+    background: linear-gradient(50deg,rgb(132, 130, 146) 0,rgb(227, 228, 186) 100%);
+
+
+}
+
+#section-3-title{
+    margin-left: 2rem;
 }
 
 figcaption{
     text-align: center;
+    
+}
+
+.section-3-row-column{ 
+    float: left;
+    width: 33.33%;
+    padding: 6px;
+ 
+}
+
+/******************************  footer */
+footer{
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+
+#footer-divider{
+   
+   margin: 1rem ;
+   
+   color: var(--darkColor);
+}
+
+.footer-menu{
+    
+    display: flex;
+  justify-content:space-around;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: row;
 }
