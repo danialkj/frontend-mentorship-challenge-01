@@ -1,60 +1,92 @@
 @import "reset.css";
+ :root{
+    --darkColor : #515151 ;
+    --lightColore : #fff ;
+    --midnightbBlueColor : #0a84a0;
+    --lightGreenColor: #01a3a4;
+
+ }
+
+
+/* Navbar setting  setting */
 
 #navbar{
-    position: absolute;
-    width: 675px;
-    height: 57px;  
-    background-color: blue;
-    z-index: 2;
-}
-#login-icon{
-    position: absolute;
-width: 22px;
-height: 29px;
-
-font-family: Font Awesome 5 Free;
-font-style: normal;
-font-weight: 900;
-font-size: 24px;
-line-height: 28px;
-
-color: #FFF7F7;
+    background-color: var(--midnightbBlueColor);  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .8rem;
+     
 }
 
-/* join us */
-#slider-btn{
-
-position: absolute;
-
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-
-
-/* identical to box height */
-
-
-color: #000000;
+.whitetxt , #login-icon{
+color: cornsilk;
 }
-/* SLIDER ATTRIBUTE */
-.slider {
 
+
+/* slider setting */
+
+.slider{
+    width: 100%; 
+   
+}
+#slider-img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+/* slider object */
+
+.slider-obj  {
+    position:absolute;
+    color: white;
+    border-radius: 5px;
     text-align: center;
-    display: block;
-    max-width: 100%;
-    position: relative;
-     margin: auto;
-      
+  }
+
+  .slider-obj {
+
+top: 20%;
+left:10%;
+font-size: 1.3rem;
+text-shadow:2px 2px var(--darkColor);
+
+
+
+  }
+#slider-btn{
+    cursor: pointer;
+    box-shadow:2px 2px var(--darkColor);
+    border-radius: 0px 5px 0px 5px ;
+    border:none;
+    padding: 3px 20px  ;
+
 }
 
+/* section 2 */
 
-.slider-obj{
-    position: absolute;
-    top: 50%;
-    left: 10%;
-    transform: translate(-30%, -900%);
-    cursor: pointer;
+#section-2{
+    padding: 3rem 3rem ;
+ 
+}
 
+#section-2-title{
+text-align: center;
+padding: 1rem;
+font-weight:;
+}
+#section-2-first-row{
+    clear: both;
+  display: table;
+    
+}
 
+.section-2-row-column{ 
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+img{
+    background-image: 
 }
