@@ -118,7 +118,7 @@ padding-left: 14rem;
 color: #fff;
 text-shadow: 2px 2px  var(--darkColor);
 cursor: pointer;
-filter: drop-shadow(0 0 0.75rem crimson)
+filter: drop-shadow(0 0 0.75rem rgb(255, 208, 0))
 
 }
 
@@ -127,6 +127,8 @@ filter: drop-shadow(0 0 0.75rem crimson)
 
 #section-3 {
     background: linear-gradient(50deg,rgb(132, 130, 146) 0,rgb(227, 228, 186) 100%);
+    display: table;
+    padding-top: 1rem;
 
 
 }
@@ -144,6 +146,7 @@ figcaption{
     float: left;
     width: 33.33%;
     padding: 6px;
+    
  
 }
 
@@ -158,7 +161,6 @@ footer{
 #footer-divider{
    
    margin: 1rem ;
-   
    color: var(--darkColor);
 }
    
