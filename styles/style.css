@@ -132,6 +132,9 @@ filter: drop-shadow(0 0 0.75rem rgb(255, 208, 0))
     background: linear-gradient(50deg,rgba(255, 18, 89, 0.157) 0,rgba(192, 5, 176, 0.15) 100%);
     display: table;
     padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 10px;
 
 
 }
@@ -142,17 +145,23 @@ filter: drop-shadow(0 0 0.75rem rgb(255, 208, 0))
 
 }
 
-figcaption{
-    text-align: center;
-    
-}
+ .font-Raleway{
+     font-family: releway;
+ }
+
 
 .section-3-row-column{ 
     float: left;
     width: 33.33%;
     padding: 6px;
     
- 
+}
+figcaption{
+    background-color: #ffff;
+    margin-top: -3px;
+    text-align: center;
+    padding:1rem 2rem;
+    margin;
 }
 
 
